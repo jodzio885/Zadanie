@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASTBIKE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html"><img src="logo.png" class="logozdj"></a>
+
+    <!-- Nawigacja -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sekcja galerii -->
+    <section class="gallery">
+        <h1>Galeria obrazów</h1>
+        <div class="gallery-container">
+            <img src="https://via.placeholder.com/300" alt="Obraz 1" onclick="showImage(this)">
+            <img src="https://via.placeholder.com/300" alt="Obraz 2" onclick="showImage(this)">
+            <img src="https://via.placeholder.com/300" alt="Obraz 3" onclick="showImage(this)">
+            <img src="https://via.placeholder.com/300" alt="Obraz 4" onclick="showImage(this)">
+        </div>
+    </section>
+
+    <!-- Powiększony obraz w modalnym oknie -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeImage()">&times;</span>
+        <img class="modal-content" id="expandedImage">
+    </div>
+
+     <!-- Stopka -->
+     <footer>
+        <p>© 2024 Strona stworzona przez Bartosza Szmidla Krzysztofa Sachanka I Jagode Grzesice z 3I :)</p>
+    </footer>
+</body>
+</html>
