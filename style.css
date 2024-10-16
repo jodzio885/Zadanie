@@ -94,6 +94,10 @@ nav ul li a:hover {
     flex-wrap: wrap;
     align-content: center;
     gap: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 300px;
+    left: 350px;
 }
 
 .gallery-container img {
@@ -101,11 +105,7 @@ nav ul li a:hover {
     height: 400px;
     cursor: pointer;
     transition: transform 0.2s;
-    align-content: center;
-    gap: 20px;
-    position: absolute;
-    top: 300px;
-     left: 350px;
+
 }
 
 .gallery-container img:hover {
