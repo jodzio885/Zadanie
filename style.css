@@ -92,12 +92,13 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-content: center;
     gap: 20px;
 }
 
 .gallery-container img {
     width: 300px;
-    height: 300px;
+    height: 400px;
     cursor: pointer;
     transition: transform 0.2s;
 }
