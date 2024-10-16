@@ -149,11 +149,11 @@ nav ul li a:hover {
 
 /* Stopka na dole strony */
 footer {
-    background-color: #0f1117;
+   
+    background-color: #191d27;
     color: white;
     text-align: center;
-    padding: 30px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 50px;
 }
