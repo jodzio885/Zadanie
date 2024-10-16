@@ -147,13 +147,5 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-/* Stopka na dole strony */
-footer {
-   
-    background-color: #191d27;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 14px;
-    margin-top: 50px;
-}
+
+
